@@ -1,0 +1,18 @@
+# 忽略 Python 虚拟环境
+.venv/
+venv/
+env/
+
+# 忽略编译缓存
+__pycache__/
+*.pyc
+
+# 忽略敏感配置文件（包含你的 API Key）
+.env
+
+# 忽略本地向量数据库和 MySQL 临时文件
+chroma_db/
+*.sqlite3
+
+# 忽略 PyCharm 的配置
+.idea/
